@@ -1,0 +1,34 @@
+.tripletriad-gameboard {
+    width: 100vw;
+    height: 100vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.tripletriad-options {
+    width: 100vw;
+    height: calc(100vw / 3);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.tripletriad-space {
+    background-color: lightgray;
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    box-sizing: border-box;
+}
+
+.tripletriad-card {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
